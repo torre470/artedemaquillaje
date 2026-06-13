@@ -1,0 +1,175 @@
+/* Estilos generales - Colores totalmente nuevos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff5f8; /* Fondo color rosa muy claro */
+    color: #5a3e4b; /* Color de texto morado suave */
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background-color: #f8c8dc; /* Rosa claro */
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 3px solid #d883a6; /* Rosa más oscuro */
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #994d7c; /* Color morado rosa */
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #7a4a65;
+    font-size: 16px;
+}
+
+/* Navegación */
+nav {
+    background-color: #f4a7c1; /* Rosa medio */
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #994d7c;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #994d7c;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.bienvenida {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 35px;
+}
+
+.imagen-principal {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #f8c8dc;
+}
+
+/* Estilos para la página principal */
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.item {
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 8px;
+    border-left: 4px solid #f4a7c1;
+}
+
+.item h3 {
+    color: #994d7c;
+    margin-bottom: 8px;
+}
+
+/* Estilos para la página de tipos */
+.estilo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.inverso {
+    grid-template-columns: 2fr 1fr;
+}
+
+.imagen-estilo {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #f8c8dc;
+}
+
+.texto-estilo h3 {
+    color: #994d7c;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Estilos para la página de consejos */
+.contenedor-consejos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 8px;
+    border-top: 4px solid #f4a7c1;
+}
+
+.tarjeta h3 {
+    color: #994d7c;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #994d7c;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
